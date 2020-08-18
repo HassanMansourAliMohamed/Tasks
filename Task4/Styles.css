@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;  
+  list-style: none;
+  text-decoration: none;
+}
+
+p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a9a9a9;
+}
+
+h1.title{
+    margin-bottom: 20px;
+    color: #444444;
+    text-transform: uppercase;
+    font-size: 38px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+}
+
+.btn a{
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px auto 2px;
+}
+.hr{
+    border-top: 1px solid red;
+    padding: 20px;
+    border: 10px;
+    
+}
+.main-container{
+    position: relative;
+}
+
+/* navaigation bar styles */
+.navbar{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.logo a{
+font-size: 20px;
+color: #ffffff;
+}
+.navbar .navbar_items ul{
+    display: flex;
+}
+.navbar .navbar_items ul li{
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-size: 15px;
+}
+.navbar .navbar_items ul li{
+    color: #ffffff;
+}
+/* banner image*/
+.banner_image{
+    background: url("portfolio/bg-masthead.jpg") no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_content{
+    text-align: center;
+    color: #ffffff;
+}
+.banner_content h1{
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+.banner_content h1 span{
+    color: #ffffff;
+}
+/* botton find out more*/
+.banner_content .btn a{
+    border-radius: 32px;
+}
