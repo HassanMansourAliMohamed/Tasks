@@ -37,7 +37,9 @@ h1.title{
 .hr{
     border-top: 1px solid red;
     padding: 20px;
-    border: 10px;
+    border: 2px;
+    width: 5%;
+    margin: 10% auto;
     
 }
 .main-container{
