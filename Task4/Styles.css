@@ -24,22 +24,20 @@ h1.title{
 }
 
 .btn a{
-    background-color: orangered;
     border: none;
-    color: white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px auto 2px;
+    margin: 4px auto 2px;   
 }
-.hr{
-    border-top: 1px solid red;
-    padding: 20px;
-    border: 2px;
-    width: 5%;
-    margin: 10% auto;
+hr{
+    border-top: 3px solid orangered;
+    width: 50px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10px;
     
 }
 .main-container{
@@ -95,4 +93,44 @@ color: #ffffff;
 /* botton find out more*/
 .banner_content .btn a{
     border-radius: 32px;
+    background-color: orangered;
+    color: #ffffff;
+}
+.started{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: orangered;
+}
+.title{
+    padding: 10px;
+    color: #ffffff;
+}
+.title hr{
+    color: #ffffff;
+    padding: 5px;
+    width: 50px;
+    margin: auto;
+}
+.started .btn a{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 30px;
+    
+}
+.service .title{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+.diff_services{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.diff_services .diff_services_items img{
+    margin: -10px 0px;
+    padding-top: 15px;
 }
