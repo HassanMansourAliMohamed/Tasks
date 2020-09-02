@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* global styles */ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+.text-red{
+    color: red;
+}
+button:hover{
+    background-color:  #0a1f44;
+}
+
+/* top bar styles */
+.top-bar{
+    background-color: #0a1f44;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 2px;
+    text-justify: center;
+    color: white;
+    padding: 15px;
+}
+button{
+    background-color: #E01705;
+    color: white;
+    line-height: 20px;
+    height: 30px;
+    border: none;
+    padding: 3px;
+}
+/* navbar styles*/
+ul{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar .nav-items .links ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+/* show case styles*/
+
+.showcase .container{
+    display: flex;
+    width: 75%;
+    
+}
+.showcase{
+    height: 500px;
+    width: 70%;
+}
+.showcase .showcase-text{
+    padding-top: 70px;
+    flex-wrap: wrap;
+    width: 400px;
+    
+
+}
+.showcase .subheading{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 50px;
+}
+.showcase .showcase-text .mashead-heading{
+    font-size: 1rem;
+    word-spacing: 2px;
+    padding-top: 30px;
+}
+.container .image{
+    width: 300px;
+    height: auto;  
+    background-size: 10px;     
+}
+.showcase .showcase-text button{
+    border: none;
+    font-size: 10;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+/* choosing us styles*/
+
+.choosing-us .container{
+    margin-top: 400px;
+    background-color: #F8F8F8;
+    display: block;
+    width: 80%;
+}
+.choosing-us .head{
+    color: #E01705;
+    text-align: center;
+    font-weight: bold;
+}
+.choosing-us .subhead{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 25px;
+    flex-wrap: wrap;
+    line-height: 50px;
+    color: #0a1f44;
+}
+.choosing-us .subhead h5{
+    color: #0a1f44;
+    font-weight: normal;
+    font-size: 1rem;
+    word-wrap: break-word;
+}
+.choosing-us .row{
+    display: flex;
+    margin-top: 100px;
+}

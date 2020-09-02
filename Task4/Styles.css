@@ -23,7 +23,7 @@ hr{
 
 .container{
     width: 70%;
-    margin: 0 auto;
+    
     padding: 10px;
 }
 
@@ -45,6 +45,9 @@ hr{
     background-position: center center;
     opacity: 10;
 }
+.navbar .nav-items .links{
+    margin-left: auto;
+}
 
 
 /* logo style */
@@ -60,6 +63,7 @@ hr{
 .navbar .nav-items .links ul li{
     display: inline-block;
     padding: 0px 12px;
+    
 }
 .navbar .nav-items .links ul li a{
     color: white;
@@ -83,14 +87,14 @@ hr{
 .themes-text  hr{
     width: 5%;
     margin: 10px auto;
-    border: 2px solid brown;
+    border: 2px solid orangered;
 }
 .themes-text .mashead{
     color: white;
     margin: 20px;
 }
 .themes-text button{
-    background-color: brown;
+    background-color: orangered;
     border-radius: 20px;
     border: none;
     color: white;
@@ -101,8 +105,9 @@ hr{
 
 /* Started styles */
 .started{
-    background-color: brown;
+    background-color: orangered;
     width: 100%;
+    padding-bottom: 30px;
 }
 
 .started-text .head{
@@ -111,7 +116,7 @@ hr{
     margin: 50px auto 20px auto;
 }
 .started-text hr{
-    color: white;
+    border: 2px solid white;
     margin: 10px auto;
 }
 .started-text button{
@@ -124,4 +129,73 @@ hr{
     border: 30px;
     margin-top: 30px;
 
+}
+/* service styles */
+.services{
+    padding-bottom: 50px;
+}
+.services .head{
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 2rem;
+}
+.services hr{
+    border: 2px solid orangered;
+    margin: 10px auto;
+}
+.services .row{
+    margin-top: 80px;
+}
+.services .row .icon{
+    color: orangered;
+    margin-bottom: 20px;
+}
+/* gallery styles */
+.gallery .container{
+    margin: 120px 0 0 0;
+    padding: 0px;
+    width: 100%;
+}
+.gallery img{
+    width: 570px;
+    height: 250px;
+}
+/* download styles */
+.download{
+    background-color: dimgray;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.download h2{
+    color: white;
+    margin-bottom: 30px;
+}
+.download button{
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px 30px;
+    font-size: 0.9rem;
+}
+/* contact styles */
+.contact h2{
+    color: dimgray;
+    font-weight: bold;
+}
+.contact hr{
+    border: 2px solid orangered;
+    margin: 30px auto;
+    width: 50px;
+
+}
+.contact .icon{
+    margin: 30px 0;
+}
+.contact .icon p{
+    margin: 20px;
+}
+.contact .icon .red{
+    color: red;
 }
